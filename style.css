@@ -48,7 +48,7 @@ div {
 .banner {
   background-image: url(./images/bck1.png);
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,9 +73,14 @@ h1 {
   color: rgb(251, 248, 247);
   font: bold;
   font-weight: bolder;
-
   text-shadow: 5px;
   text-overflow: clip;
+}
+h3 {
+  font-size: 20px;
+}
+span {
+  color: tomato;
 }
 #btext {
   padding-left: 25px;
@@ -94,4 +99,31 @@ h1 {
   font-size: 15px;
   font-weight: bold;
   align-items: right;
+}
+
+.d-today {
+  width: 60%;
+  height: 400px;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+h2 {
+  font-size: 39px;
+}
+#donate-today {
+  font-size: 15px;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.li-tk {
+  width: 70%;
+  height: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
