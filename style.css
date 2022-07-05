@@ -1,0 +1,97 @@
+div {
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+  color: rgb(6, 6, 6);
+  border: 5px;
+  border-radius: 5px;
+  animation: bounce 30s;
+}
+.nav-skip {
+  width: 50%;
+  padding-left: 20px;
+  text-align: left;
+}
+.list {
+  width: 60%;
+  display: flex;
+  list-style: none;
+  margin-left: 50%;
+  font-weight: bold;
+  text-align: right;
+  justify-content: space-between;
+}
+#nav-btn {
+  margin: 10px;
+  padding: 10px 10px;
+  border: 10px;
+  background-color: tomato;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+#navbtn {
+  margin: 10px;
+  padding: 10px 10px;
+  border: 10px;
+  background-color: rgb(247, 244, 243);
+  border-radius: 20px;
+  color: rgb(17, 17, 17);
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(./images/bck1.png);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blank {
+  width: 10%;
+}
+.blank1 {
+  width: 10%;
+}
+.content-box {
+  width: 80%;
+  padding: 50px 30px 50px 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  padding-left: 15%;
+  padding-top: 25px;
+  font-size: 40px;
+  color: rgb(251, 248, 247);
+  font: bold;
+  font-weight: bolder;
+
+  text-shadow: 5px;
+  text-overflow: clip;
+}
+#btext {
+  padding-left: 25px;
+  font-size: 15px;
+  color: rgb(245, 243, 243);
+  text-align: center;
+  justify-content: space-between;
+}
+.h-button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: 10px;
+  background-color: tomato;
+  border-radius: 20px;
+  color: rgb(17, 17, 17);
+  font-size: 15px;
+  font-weight: bold;
+  align-items: right;
+}
