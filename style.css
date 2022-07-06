@@ -210,9 +210,9 @@ h2 {
   margin: 5px;
 }
 .news {
-  width: 100%;
+  width: 90%;
   display: flex;
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0px 80px 80px;
   text-decoration: none;
 }
 #img1 {
@@ -231,14 +231,14 @@ h2 {
 .iteam1 {
   width: 40%;
   margin: 10px;
-  padding: 5px 5px 5px 50px;
+  padding: 5px 5px 5px 70px;
   box-shadow: 10px 10px 10px 10px gray;
   border-radius: 40px;
 }
 .iteam2 {
   width: 40%;
   margin: 10px;
-  padding: 5px 5px 5px 50px;
+  padding: 5px 5px 5px 70px;
   box-shadow: 10px 10px 10px 10px gray;
   border-radius: 40px;
 }
