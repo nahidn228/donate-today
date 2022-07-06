@@ -176,3 +176,35 @@ h2 {
   text-align: center;
   font-size: medium;
 }
+.plan{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+
+}
+.food{
+  width: 25%;
+  
+  text-align: justify;
+  padding: 5px;
+  background-color: rgb(221, 244, 221);
+  margin: 5px;
+  
+}
+.Shelter{
+  width: 25%;
+  text-align: justify;
+  padding: 5px;
+  background-color: rgb(202, 239, 227);
+  margin: 5px;
+}
+.Education{
+  width: 25%;
+  text-align: justify;
+  padding: 5px;
+  background-color: rgb(235, 220, 202);
+  margin: 5px;
+}
