@@ -35,6 +35,7 @@ body {
   border-radius: 10px;
   color: white;
   font-weight: 750;
+  
 }
 #navbtn {
   margin: 5px;
@@ -43,6 +44,7 @@ body {
   background-color: rgb(249, 249, 249);
   border-radius: 20px;
   color: rgb(16, 16, 16);
+ 
 }
 
 .banner {
@@ -159,12 +161,12 @@ h2 {
   text-align: center;
 }
 #d-button {
-  margin: 20px;
-  padding: 10px 20px;
+  margin: 25px;
+  padding: 15px 25px;
   border: 10px;
   background-color: tomato;
   border-radius: 5px;
-  color: rgb(17, 17, 17);
+  color: rgb(253, 247, 247);
   font-size: 15px;
   font-weight: bold;
   align-items: center;
@@ -173,6 +175,13 @@ h2 {
   width: 100%;
   text-align: center;
   font-size: medium;
+  margin-top: 80px;
+}
+#give-support {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
 }
 .plan {
   width: 80%;
@@ -240,6 +249,10 @@ h2 {
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
+}
+#p-pdate {
+  text-align: justify;
+  padding-bottom: 10px;
 }
 .email {
   text-align: center;
