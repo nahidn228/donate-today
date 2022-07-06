@@ -1,7 +1,7 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .nav {
   display: flex;
@@ -10,7 +10,7 @@ body{
   background-color: rgb(244, 244, 244);
   color: rgb(6, 6, 6);
   border: 5px;
-  border-radius: 5px;
+  border-radius: 2px;
   animation: bounce 30s;
 }
 .nav-skip {
@@ -32,7 +32,7 @@ body{
   padding: 10px 10px;
   border: 10px;
   background-color: tomato;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   font-weight: bold;
 }
@@ -40,7 +40,7 @@ body{
   margin: 10px;
   padding: 10px 10px;
   border: 10px;
-  background-color: rgb(247, 244, 243);
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
   color: rgb(17, 17, 17);
   font-weight: bold;
@@ -53,7 +53,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  bac
 }
 .blank {
   width: 10%;
@@ -137,7 +136,7 @@ h2 {
 }
 #tk3 {
   background-color: rgb(225, 214, 214);
-  padding: 15px;
+  padding: 20px;
   border: 2px solid tomato;
   border-radius: 5px;
   text-align: center;
@@ -148,7 +147,7 @@ h2 {
   border: 2px;
   text-align: center;
 }
-.other-amount{
+.other-amount {
   height: 80px;
   padding-top: 30px;
   padding-left: 20%;
@@ -156,11 +155,11 @@ h2 {
   text-align: center;
   opacity: 0.7;
 }
-.d-button{
+.d-button {
   width: 100%;
   text-align: center;
 }
-#d-button{
+#d-button {
   margin: 20px;
   padding: 10px 20px;
   border: 10px;
@@ -171,63 +170,66 @@ h2 {
   font-weight: bold;
   align-items: center;
 }
-.donate-plan{
+.donate-plan {
   width: 100%;
   text-align: center;
   font-size: medium;
 }
-.plan{
+.plan {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-
 }
-.food{
+.food {
   width: 25%;
   text-align: justify;
   padding: 5px;
   background-color: rgb(221, 244, 221);
   margin: 5px;
-  
 }
-.Shelter{
+.Shelter {
   width: 25%;
   text-align: justify;
   padding: 5px;
   background-color: rgb(202, 239, 227);
   margin: 5px;
 }
-.Education{
+.Education {
   width: 25%;
   text-align: justify;
   padding: 5px;
   background-color: rgb(235, 220, 202);
   margin: 5px;
 }
-.update{
+.blank {
+  width: 20%;
+}
+.blank1 {
+  width: 20%;
+}
+
+.update {
   text-align: center;
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
 }
-.email{
+.email {
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px 80px 0px;
 }
-input[type=email] {
-  
+input[type="email"] {
   padding: 12px 20px;
-  margin: 8px 0 0 0 ;
+  margin: 8px 0 0 0;
   box-sizing: border-box;
   border: 2px solid gray;
   border-radius: 10px 0px 0px 10px;
   background-color: rgb(208, 191, 191);
 }
-#update-button{
-  
+#update-button {
   padding: 13px 20px;
   border: 15px;
   background-color: rgb(237, 59, 28);
@@ -236,3 +238,12 @@ input[type=email] {
   font-size: 15px;
   font-weight: bold;
   align-items: center;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  padding: 10px 0px 20px 0px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(14, 13, 13);
+}
