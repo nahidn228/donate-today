@@ -34,16 +34,15 @@ body {
   background-color: tomato;
   border-radius: 10px;
   color: white;
-  font-weight: bold;
+  font-weight: 750;
 }
 #navbtn {
-  margin: 10px;
+  margin: 5px;
   padding: 10px 10px;
   border: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(249, 249, 249);
   border-radius: 20px;
-  color: rgb(17, 17, 17);
-  font-weight: bold;
+  color: rgb(16, 16, 16);
 }
 
 .banner {
@@ -204,11 +203,36 @@ h2 {
   background-color: rgb(235, 220, 202);
   margin: 5px;
 }
-.blank {
-  width: 20%;
+.news {
+  width: 100%;
+  display: flex;
+  padding: 80px 0px 80px 0px;
 }
-.blank1 {
-  width: 20%;
+#img1 {
+  height: 300px;
+  width: 400px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#img2 {
+  height: 300px;
+  width: 400px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.iteam1 {
+  width: 40%;
+  margin: 10px;
+  padding: 5px 5px 5px 50px;
+  box-shadow: 10px 10px 10px 10px gray;
+  border-radius: 40px;
+}
+.iteam2 {
+  width: 40%;
+  margin: 10px;
+  padding: 5px 5px 5px 50px;
+  box-shadow: 10px 10px 10px 10px gray;
+  border-radius: 40px;
 }
 
 .update {
