@@ -1,6 +1,7 @@
 div {
   margin: 0px;
   padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 .nav {
   display: flex;
@@ -83,7 +84,7 @@ span {
   color: tomato;
 }
 #btext {
-  padding-left: 25px;
+  padding-left: 100px;
   font-size: 15px;
   color: rgb(245, 243, 243);
   text-align: center;
@@ -103,7 +104,7 @@ span {
 
 .d-today {
   width: 60%;
-  height: 400px;
+  height: 200px;
   padding-top: 50px;
   padding-left: 20%;
   padding-right: 20%;
@@ -115,15 +116,30 @@ h2 {
 #donate-today {
   font-size: 15px;
   justify-content: space-between;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .li-tk {
-  width: 70%;
+  width: 50%;
   height: 100px;
-  padding-left: 15%;
+  margin-left: 30px;
+  padding-left: 20%;
   padding-right: 15%;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+#tk3 {
+  
+  background-color: rgb(225, 214, 214);
+  padding: 15px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  text-align: center;
+  color: tomato;
+}
+#tk1 {
+  padding: 15px;
+  border: 2px;
+  text-align: center;
 }
