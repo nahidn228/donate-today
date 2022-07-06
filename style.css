@@ -187,7 +187,6 @@ h2 {
 }
 .food{
   width: 25%;
-  
   text-align: justify;
   padding: 5px;
   background-color: rgb(221, 244, 221);
@@ -208,3 +207,32 @@ h2 {
   background-color: rgb(235, 220, 202);
   margin: 5px;
 }
+.update{
+  text-align: center;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.email{
+  text-align: center;
+  padding: 10px;
+}
+input[type=email] {
+  
+  padding: 12px 20px;
+  margin: 8px 0 0 0 ;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 10px 0px 0px 10px;
+  background-color: rgb(208, 191, 191);
+}
+#update-button{
+  
+  padding: 13px 20px;
+  border: 15px;
+  background-color: rgb(237, 59, 28);
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(232, 223, 223);
+  font-size: 15px;
+  font-weight: bold;
+  align-items: center;
